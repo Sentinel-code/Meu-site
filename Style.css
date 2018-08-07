@@ -1,11 +1,73 @@
 body{
     margin: 0;
     background-color: beige;
-    font-family: 'Hanalei Fill', cursive;   
+    font-family: 'Do Hyeon', sans-serif;  
 }
 
 h1, h2{
     color: blueviolet;
     text-align: center;
     font-weight: 800;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+
+}
+
+.menu{
+    background-color: beige;
+    font-size: 30pt;
+}
+
+.menu a{
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+p{
+    margin-left: 0px;
+    font-size: 15pt;
+}
+
+.logo{
+    height: 120px;
+}
+
+.legenda{
+    color: black;
+    font-size: 20pt;
+    font-style: normal;
+}
+
+.rodape{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+button{
+    border: solid blue 6px;
+    background-color:rgb(56, 56, 204);
+    border-radius: 15%;
+    padding: 20px;
+    color: black;
+
+}
+
+.espaco{
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.video{
+    display: flex;
+    margin: 0 auto;
 }
